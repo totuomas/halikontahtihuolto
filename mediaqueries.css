@@ -1,0 +1,150 @@
+@media (max-width: 992px) {
+  .hero { 
+    padding: 80px 0; 
+    text-align: center; 
+  }
+  
+  .hero-container { 
+    justify-content: center; 
+  }
+  
+  .hero-buttons { 
+    justify-content: center; 
+  }
+  
+  .trust-badges { 
+    justify-content: center; 
+  }
+  
+  .process-timeline { 
+    flex-direction: column; 
+    gap: 35px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .process-step { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+  }
+
+  .step-meta { 
+    justify-content: center;
+  }
+  
+  .process-step::after { 
+    display: none !important; 
+  }
+  
+  .footer-container { 
+    flex-direction: column; 
+    gap: 40px; 
+  }
+  
+  .quote-btn {
+    align-self: center;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .map-card iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar { 
+    padding: 20px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: none;
+    box-shadow: none;
+  }
+  
+  .nav-links { 
+    display: none; 
+  }
+  
+  .navbar .nav-btn { 
+    display: inline-block; 
+  }
+
+  .hero {
+    padding-top: 100px; 
+  }
+
+  .hero h1 { 
+    font-size: 2.1rem; 
+  }
+  
+  .hero-trust-badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .hero-badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 12px;
+  }
+
+  .hero-badge div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .audience-grid { 
+    grid-template-columns: 1fr; 
+  }
+  
+  .step-number {
+    display: none;
+  }
+
+  .footer-bottom .logo-link {
+    display: none;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px; 
+    text-align: center; 
+    padding: 20px 20px;
+  }
+
+  .floating-contact-wrapper {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .contact-trigger-btn span {
+    display: none;
+  }
+
+  .contact-trigger-btn {
+    padding: 14px;
+    border-radius: 50%;
+  }
+
+  .contact-panel {
+    max-width: 100%;
+    right: -100%;
+  }
+}
